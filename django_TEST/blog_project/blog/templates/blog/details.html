@@ -1,0 +1,11 @@
+<html lang="en">
+<head>
+    <title>{{ post.title }}</title>
+</head>
+<body>
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.content }}</p>
+    <small>{{ post.created_at }}</small>
+    <div><a href="{% url "index" %}">Back to Blog Posts</a></div>
+</body>
+</html>
